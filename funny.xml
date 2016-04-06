@@ -15,6 +15,9 @@
             <field name="NUM">30000</field>
           </block>
         </value>
+        <statement name="DO">
+          <block type="movement_left" id="344"></block>
+        </statement>
         <next>
           <block type="controls_repeat" id="85" inline="true">
             <value name="TIMES">
