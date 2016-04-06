@@ -46,7 +46,7 @@
                       </block>
                     </value>
                     <statement name="DO">
-                      <block type="movement_forward" id="409"></block>
+                      <block type="movement_right" id="419"></block>
                     </statement>
                     <next>
                       <block type="movement_stop" id="54"></block>
