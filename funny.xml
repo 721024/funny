@@ -29,7 +29,13 @@
               <block type="movement_forward" id="146"></block>
             </statement>
             <next>
-              <block type="movement_stop" id="54"></block>
+              <block type="movement_stop" id="54">
+                <next>
+                  <block type="comment_comment" id="216">
+                    <field name="TEXT">llllaaa</field>
+                  </block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
