@@ -2,11 +2,11 @@
   <block type="controls_repeat" id="1" inline="true" x="-7" y="-1">
     <value name="TIMES">
       <block type="math_number" id="2">
-        <field name="NUM">30000</field>
+        <field name="NUM">10000</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="3"></block>
+      <block type="movement_reverse" id="26"></block>
     </statement>
     <next>
       <block type="controls_repeat" id="4" inline="true">
@@ -29,29 +29,17 @@
               <block type="movement_forward" id="9"></block>
             </statement>
             <next>
-              <block type="controls_repeat" id="10" inline="true">
+              <block type="controls_repeat" id="13" inline="true">
                 <value name="TIMES">
-                  <block type="math_number" id="11">
-                    <field name="NUM">30000</field>
+                  <block type="math_number" id="14">
+                    <field name="NUM">300000</field>
                   </block>
                 </value>
                 <statement name="DO">
-                  <block type="movement_left" id="12"></block>
+                  <block type="movement_forward" id="15"></block>
                 </statement>
                 <next>
-                  <block type="controls_repeat" id="13" inline="true">
-                    <value name="TIMES">
-                      <block type="math_number" id="14">
-                        <field name="NUM">30000</field>
-                      </block>
-                    </value>
-                    <statement name="DO">
-                      <block type="movement_forward" id="15"></block>
-                    </statement>
-                    <next>
-                      <block type="movement_stop" id="16"></block>
-                    </next>
-                  </block>
+                  <block type="movement_stop" id="16"></block>
                 </next>
               </block>
             </next>
